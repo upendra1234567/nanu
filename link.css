@@ -1,0 +1,27 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+
+}
+main{
+    width: 75%;margin: 50px auto;
+    border: 1px solid grey;
+    display: grid;color: white;
+    grid-template-rows: 60px 100px 200px 60px;
+    grid-template-columns: repeat(3,1fr)150px;
+    
+
+}
+.div1{ background-color: brown;
+grid-column: 1/-1;}
+.div2{ background-color: rgb(75, 42, 165);}
+.div3{ background-color: rgb(42, 165, 97);}
+.div4{ background-color: rgb(165, 136, 42);}
+.div5{ background-color: rgb(42, 81, 165);
+    grid-row:2/4;
+    grid-column:4/5;}
+    
+.div6{ background-color: rgb(42, 165, 42);
+grid-column: 1/4;}
+.div7{ background-color: rgb(41, 2, 2);
+grid-column: 1/-1;}
